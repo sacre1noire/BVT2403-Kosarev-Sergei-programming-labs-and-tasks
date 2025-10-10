@@ -35,7 +35,7 @@ public class Car extends TS {
         System.out.println("Вашему ТС требуется техническое обслуживание");
     }
 
-    public void ifturbo() {
+    public void ifTurbo() {
         if (turbo) {
             System.out.println("Отличный выбор :)");
         }
