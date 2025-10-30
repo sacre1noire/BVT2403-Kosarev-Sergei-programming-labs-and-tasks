@@ -10,7 +10,8 @@ public class Bike extends TS{
         this.topSpeed=60;
         this.weight=50.0;
     }
-    public Bike(String type_of_vehicle,String mark, String model,int engine_number,int engine_hours,int topSpeed, double weight,double engine_capacity){
+    public Bike(String type_of_vehicle,String mark, String model,int engine_number,
+                int engine_hours,int topSpeed, double weight,double engine_capacity){
         super(type_of_vehicle,mark,model,engine_number,engine_hours);
         this.topSpeed=topSpeed;
         this.engine_capacity=engine_capacity;
@@ -22,7 +23,8 @@ public class Bike extends TS{
     @Override
     public void getInfo(){
         super.getInfo();
-        System.out.println("Максимальная скорость"+topSpeed+"Объем двигателя"+engine_capacity+"куб."+"Вес мотоцикла"+weight);
+        System.out.println(", Максимальная скорость "+topSpeed+", Объем двигателя "+
+                engine_capacity+"куб. "+", Вес мотоцикла "+weight);
     }
     public int getTopSpeed(){return topSpeed;}
     public void setTopSpeed(int topSpeed){this.topSpeed=topSpeed;}

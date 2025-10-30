@@ -1,6 +1,4 @@
 package Lab_2;
-/*Базовый класс: Транспортное средство. Дочерние клас
-сы: Грузовой автомобиль, Мотоцикл*/
 public abstract class TS {
     private String type_of_vehicle;
     private String mark;
@@ -24,7 +22,8 @@ public abstract class TS {
                 ", Моточасы двигателя: " + engine_hours);
     }
     public String getMark(){return mark;}
-    public void setMark(String mark){if (mark == null || mark.isBlank()) throw new IllegalArgumentException("mark required"); this.mark = mark;}
+    public void setMark(String mark){if (mark == null || mark.isBlank())
+        throw new IllegalArgumentException("mark required"); this.mark = mark;}
     public String getModel(){return model;}
 }
 

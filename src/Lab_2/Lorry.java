@@ -22,10 +22,12 @@ public class Lorry extends TS{
     @Override
     public void getInfo(){
         super.getInfo();
-        System.out.println("Максимальная загрузка"+loadCapacity+"кг"+"Количество осей"+numberOfAxles+"Объем бака"+fuelTankCapacity);
+        System.out.println("Максимальная загрузка "+loadCapacity+" кг"+", Количество осей "+numberOfAxles+
+                ", Объем бака "+fuelTankCapacity);
     }
 
     public int getLoadCapacity(){return loadCapacity;}
-    public void setLoadCapacity(int load){if (load <0) throw new  IllegalArgumentException("Недопустимое значение максимальной загрузки"); this.loadCapacity=load;}
+    public void setLoadCapacity(int load){if (load <0) throw new
+            IllegalArgumentException("Недопустимое значение максимальной загрузки"); this.loadCapacity=load;}
     public int getNumberOfAxles(){return numberOfAxles;}
 }
