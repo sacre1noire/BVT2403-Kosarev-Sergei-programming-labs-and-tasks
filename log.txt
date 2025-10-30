@@ -1,0 +1,4 @@
+Исключение: Lab_4.exeptions.CustomInputMismatchException: Ошибка: введено не число
+Исключение: Lab_4.exeptions.CustomInputMismatchException: Ошибка: вы ввели не число
+Исключение: Lab_4.exeptions.CustomInputMismatchException: Ошибка: вы ввели не число
+Исключение: Lab_4.exeptions.CustomInputMismatchException: Ошибка: вы ввели не число
